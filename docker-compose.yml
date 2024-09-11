@@ -1,0 +1,31 @@
+version: '3'
+services:
+  keycloak:
+    build: .
+    ports:
+      - 8080:8080
+      - 8443:8443
+    environment:
+      - KC_DB_URL=jdbc:postgresql://db/keycloak
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=admin
+      - KC_DB_PASSWORD=keycloakpwd
+      - KC_DB_USERNAME=keycloakusr
+      - KC_DB=postgres
+    volumes:
+      - ./template-theme:/opt/keycloak/themes/template
+      - ./realm-import-dev-env:/opt/keycloak/data/import
+    command:
+      - start-dev
+      - --spi-theme-static-max-age=-1
+      - --spi-theme-cache-themes=false
+      - --spi-theme-cache-templates=false
+      - --import-realm
+  db:
+    image: postgres:11-alpine
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloakusr
+      POSTGRES_PASSWORD: keycloakpwd
+    ports:
+      - 5432:5432
