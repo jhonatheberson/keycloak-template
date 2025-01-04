@@ -27,7 +27,7 @@ steps:
 - task: ECRPushImage@1
   displayName: 'Push image to AKL ECR'
   inputs:
-    awsCredentials: 'arkia_ecr_aws_sc'
+    awsCredentials: 'Sentinel_ecr_aws_sc'
     regionName: 'us-east-1'
     imageSource: 'imagename'
     sourceImageName: 'template-keycloak'

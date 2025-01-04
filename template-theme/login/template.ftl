@@ -80,8 +80,8 @@
     <div class="notebook"></div>
 <div class="${properties.kcLoginClass!}">
     <div id="kc-header" class="imgd">
-        <img alt="Arklok Arkia"  class="logo"/>  
-        <img alt="Arklok Arkia"  class="model"/>  
+        <img alt="Neuai Sentinel"  class="logo"/>
+        <img alt="Neuai Sentinel"  class="model"/>
     </div>
     <div class="${properties.kcFormCardClass!}">
         <header class="${properties.kcFormHeaderClass!}">

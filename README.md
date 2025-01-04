@@ -1,10 +1,10 @@
 <h1 align="center">
-   <a href="#"> Arkia Keycloak Docker Documentation </a><br />
+   <a href="#"> Sentinel Keycloak Docker Documentation </a><br />
    <small>(Keycloak)</small>
 </h1>
 
 <h3 align="center">
-    This documentation provides instructions for running Keycloak in a Docker container for the Arklok Arkia project, based on the <a href="https://dev.azure.com/radixeng/AKL-2023-001-23001-MonitoramentoDeAtivos/_git/doc?version=GBmaster&path=/02.Analise/arquitetura/AKL-2023-001-23001-SFT-001-ArquiteturaSistema.docx">Architecture Documentation</a>. It utilizes the official Keycloak Docker image and provides steps for configuration and usage.
+    This documentation provides instructions for running Keycloak in a Docker container for the Neuai Sentinel project, based on the <a href="https://dev.azure.com/radixeng/AKL-2023-001-23001-MonitoramentoDeAtivos/_git/doc?version=GBmaster&path=/02.Analise/arquitetura/AKL-2023-001-23001-SFT-001-ArquiteturaSistema.docx">Architecture Documentation</a>. It utilizes the official Keycloak Docker image and provides steps for configuration and usage.
 </h3>
 
 </p>
@@ -21,7 +21,7 @@
 
 ## About
 
-The Arklok Arkia project utilizes Keycloak, an open-source identity and access management solution, for authentication and authorization. This documentation provides instructions for running Keycloak in a Docker container.
+The Neuai Sentinel project utilizes Keycloak, an open-source identity and access management solution, for authentication and authorization. This documentation provides instructions for running Keycloak in a Docker container.
 
 <div align="center">
 <img src="template-theme/login/resources/img/keycloak-logo-text.png" />

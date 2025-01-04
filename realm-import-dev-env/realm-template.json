@@ -2,7 +2,7 @@
   "id": "a97c6f73-1d7b-4233-92a2-a9d0c5b588f4",
   "realm": "template",
   "displayName": "",
-  "displayNameHtml": "<img alt=\"Arklok Logo\" class=\"logo\" />",
+  "displayNameHtml": "<img alt=\"Neuai Logo\" class=\"logo\" />",
   "notBefore": 0,
   "defaultSignatureAlgorithm": "RS256",
   "revokeRefreshToken": false,
